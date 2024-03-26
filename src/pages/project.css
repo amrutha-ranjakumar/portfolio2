@@ -21,14 +21,14 @@
     margin: 20px;
     position: relative;
     transform-style: preserve-3d;
-    perspective: 500px;
+    perspective: 900px;
  
  
   }
   
   .flip-card-front,
   .flip-card-back {
-    width: 380px;
+    width: 300px;
     min-height: 500px;
     height: auto;
     background-color: #000000;

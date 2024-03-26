@@ -12,8 +12,8 @@ function Project() {
 
 
     {/* <div className='mb-5 mt-5 p-5'></div> */}
-    <div className='mt-5 ' style={{marginLeft:"-1000px"}}>
-    <Link to='/' style={{textDecoration:"none",color:"white", fontSize:"20px",fontWeight:"600",marginTop:"-1000px"}}>
+    <div className='mt-5 ' style={{marginLeft:"4px"}}>
+    <Link to='/' style={{textDecoration:"none",color:"white", fontSize:"20px",fontWeight:"600"}}>
         <i class="fa-solid fa-arrow-left "></i>Back To Home
       </Link>
     </div>
