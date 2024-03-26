@@ -9,37 +9,36 @@ function Header() {
     
     <div>
 
+    <body>
     <header>
         <input type ="checkbox" name ="" id ="chk1"/>
-        <Link to='/'>
-        <div class="logo"><h1></h1></div>
-        </Link>
-      
-         
-            <ul >
-                <Link to='/'  style={{ textDecoration: "none", color: "red",fontSize: "26px"  }}>
-                <li><a href="#">Home</a></li>
-                </Link>
-                <Link to='/project'  style={{ textDecoration: "none", color: "red",fontSize: "26px"  }}>
-                <li><a href="#">About</a></li>
-                </Link>
+        <div class="logo"><h1>Web Master</h1></div>
+            <div class="search-box">
+                <form>
+                    <input type ="text" name ="search" id ="srch" placeholder="Search"/>
+                    <button type ="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <ul>
+              <Link to='/'>
+              <li><a href="#">Home</a></li>
+              </Link>
+              <Link to='/project'>
+              <li><a href="#">Project</a></li>
+              </Link>
+               <Link to='/education'>
+               <li><a href="#">Education</a></li>
+               </Link>
+              <Link to='/contact'>
+              <li><a href="#">Contact</a></li>
+              </Link>
              
-             
-                <Link to='/project'  style={{ textDecoration: "none", color: "red",fontSize: "26px"  }}>
-                <li><a href="#">project</a></li>
-                
-                </Link>
-       
-                    
-                 <Link to='/project'  style={{ textDecoration: "none", color: "red",fontSize: "26px"  }}>
-                 <li><a href="#">Education</a></li>
-                 </Link> 
-                 <Link to='/contact' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} >
-                 <li><a href="#">Contact</a></li>
-                 </Link> 
-               
-             
-              
+                <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                      
+                </li>
             </ul>
             <div class="menu">
                 <label for="chk1">
@@ -47,7 +46,7 @@ function Header() {
                 </label>
             </div>
     </header>
-
+</body>
 
     </div>
     </>

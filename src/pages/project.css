@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+  } */
   
  body {
     /* margin: 0;
@@ -14,19 +14,22 @@
     /* align-items: center; */
     /* justify-content: center; */
     flex-wrap: wrap;
+   
   }
   
   .flip-card {
     margin: 20px;
     position: relative;
     transform-style: preserve-3d;
-    perspective: 1000px;
+    perspective: 500px;
+ 
+ 
   }
   
   .flip-card-front,
   .flip-card-back {
     width: 380px;
-    min-height: 600px;
+    min-height: 500px;
     height: auto;
     background-color: #000000;
     background-image:        url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg');
@@ -69,6 +72,7 @@
     top: 0;
     left: 0;
     opacity: 0.6;
+   
   }
   
   .flip-card-front .inner,
@@ -93,6 +97,7 @@
     font-weight: 700;
     line-height: 40px;
     text-transform: capitalize;
+
   }
   
   .inner p {

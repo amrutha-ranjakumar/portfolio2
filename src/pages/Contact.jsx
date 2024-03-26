@@ -26,7 +26,7 @@ export const Contact = () => {
 
   return (
     <div className='d-flex justify-align-center align-items-center'>
-      <form ref={form} onSubmit={sendEmail} style={{ marginLeft: "100px" }}/>
+      <form ref={form} onSubmit={sendEmail} style={{ marginLeft: "60px" }}/>
 
           <Row >
       
@@ -41,19 +41,19 @@ export const Contact = () => {
 
                 <label style={{marginLeft:"-600px",color:"yellow"}}>Name:</label>
            
-                <input type="text" className='form-control' style={{ width: "700px",marginLeft:"1200px" ,backgroundColor:"orange"  }} name="from_name" />
+                <input type="text" className='form-control' style={{ width: "700px",marginLeft:"100px" ,backgroundColor:"orange"  }} name="from_name" />
                 <br />
             <br/>
             <label style={{marginLeft:"-600px",color:"yellow"}}>Email</label>
-                <input type="email" className='form-control ' style={{ width: "700px",marginLeft:"1200px",backgroundColor:"orange"  }} name="from_email" />
+                <input type="email" className='form-control ' style={{ width: "700px",marginLeft:"100px",backgroundColor:"orange"  }} name="from_email" />
                 <br />
                 <br />
                 <label style={{marginLeft:"-600px",color:"yellow"}}>Message</label>
             
-                <textarea name="message" className='form-control' style={{ width: "700px", height: "200px",marginLeft:"1200px",backgroundColor:"orange"    }} />
+                <textarea name="message" className='form-control' style={{ width: "700px", height: "200px",marginLeft:"100px",backgroundColor:"orange"    }} />
                 <br />
                 <br />
-                <input type="submit" className='form-control btn btn-warning ' style={{ width: "700px",marginLeft:"1200px" ,borderRadius:"500px"}} value="Send" />
+                <input type="submit" className='form-control btn btn-warning ' style={{ width: "700px",marginLeft:"100px" ,borderRadius:"500px"}} value="Send" />
               </div>
             </Col>
           

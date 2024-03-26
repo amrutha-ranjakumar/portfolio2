@@ -1,15 +1,23 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Header from '../components/Header';
-
+import { Link } from 'react-router-dom'
 import './project.css'
 
 
 function Project() {
   return (
+    
     <>
-    <div className='mb-5 mt-5 p-5'></div>
-    <Header/>
+
+
+    {/* <div className='mb-5 mt-5 p-5'></div> */}
+    <div className='mt-5 ' style={{marginLeft:"-1000px"}}>
+    <Link to='/' style={{textDecoration:"none",color:"white", fontSize:"20px",fontWeight:"600",marginTop:"-1000px"}}>
+        <i class="fa-solid fa-arrow-left "></i>Back To Home
+      </Link>
+    </div>
+ 
     <div >
     
     <body>
@@ -88,7 +96,7 @@ function Project() {
 
 
 
-  <body style={{marginTop:"1000px"}} >
+  <body style={{marginTop:"80px"}} >
     <div class="flip-card">
       <div class="flip-card-front">
         <div class="inner">
