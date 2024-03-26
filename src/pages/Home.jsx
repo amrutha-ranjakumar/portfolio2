@@ -14,7 +14,7 @@ function Home() {
     return (
         <div className="home-container">
             <Header />
-            <div className="wrapper">
+            <div className="wrapper" style={{    width: "400px"}}>
                 <div className="static-txt">I'm a</div>
 
                 <ul className="dynamic-txts">

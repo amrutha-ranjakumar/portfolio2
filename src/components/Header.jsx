@@ -12,7 +12,7 @@ function Header() {
     <body>
     <header>
         <input type ="checkbox" name ="" id ="chk1"/>
-        <div class="logo"><h1>Web Master</h1></div>
+        <div class="logo"><h1>Portfolio</h1></div>
             {/* <div class="search-box">
                 <form>
                     <input type ="text" name ="search" id ="srch" placeholder="Search"/>
