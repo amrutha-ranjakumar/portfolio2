@@ -25,7 +25,7 @@ export const Contact = () => {
 
   return (
     <div className='container'>
-      <form ref={form} onSubmit={sendEmail} style={{ marginLeft: '60px',marginTop:"200px" }}>
+      <form ref={form} onSubmit={sendEmail} style={{ marginLeft: '-90px',marginTop:"200px" }}>
         <Row>
           <Col>
             <h3 className='text-warning mt-2 mb-2 ms-3 d-flex justify-content-center align-items-center'>
