@@ -20,18 +20,22 @@ function Header() {
                 </form> */}
             {/* </div> */}
             <ul>
-              <Link to='/'>
+              {/* <Link to='/' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }}>
               <li><a href="#">Home</a></li>
               </Link>
-              <Link to='/project'>
+              <Link to='/project' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }}>
               <li><a href="#">Project</a></li>
               </Link>
-               <Link to='/education'>
+               <Link to='/education' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }}>
                <li><a href="#">Education</a></li>
                </Link>
-              <Link to='/contact'>
+              <Link to='/contact' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }}>
               <li><a href="#">Contact</a></li>
-              </Link>
+              </Link> */}
+              <Link to='/' className='me-5 ' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} href="#home">HOME</Link>
+              <Link to='/project' className='me-5 ' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} href="#home">PROJECT</Link>
+              <Link to='/education' className='me-5 ' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} href="#home">EDUCATION</Link>
+              <Link to='/contact' className='me-5 ' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} href="#home">CONTACT</Link>
              
                 <li>
                     <a href="#"><i class="fa fa-facebook"></i></a>
