@@ -1,14 +1,7 @@
-/* Home.css */
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 body {
   align-items: center;
   justify-content: center;
-  min-height: 60vh; /* Adjusted to cover the full viewport height */
+  min-height: 48vh;
   background-image: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover;
   color: #e72525;
@@ -17,77 +10,68 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* .home-container {
+  width: 100%;
+} */
+
 .wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -60%; /* Adjusted for better positioning */
-}
-
-.static-txt {
-  font-size: clamp(4vw, 8vw, 16vw); /* Adjusted for responsive font size */
-  font-weight: 100;
-  margin-bottom: -80vh;
-  margin-top: 45px;
+  margin-top: 20vh;
 }
 
 .dynamic-txts {
-  margin-left: -3vw;
-  height: 10vh;
-  line-height: 10vh;
-  overflow: hidden;
-  margin-top: -16vh;
-  gap: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .dynamic-txts li {
   list-style: none;
   color: #cc4141;
-  font-size: clamp(2vw, 3vw, 4vw); /* Adjusted for responsive font size */
+  font-size: clamp(16px, 3vw, 32px);
   font-weight: 300;
   position: relative;
-  top: 0;
   animation: slide 12s steps(4) infinite;
 }
 
 .dynamic-txts li span {
   position: relative;
-  margin: 1vw 0;
-  line-height: 10vh;
+  margin: 10px 0;
 }
 
 .dynamic-txts li span::after {
   content: "";
   position: absolute;
   left: 0;
-  height: 10px; /* Adjusted for a smaller height */
-  width: 10px; /* Adjusted for a smaller width */
+  height: 5px;
+  width: 5px;
   border-left: 2px solid #dd1919;
   animation: typing 3s steps(10) infinite;
 }
 
-@keyframes slide {
-  100% {
-      top: -360px;
-  }
-}
-
-@keyframes typing {
-  40%, 60% {
-      left: calc(100% + 1vw);
-  }
-  100% {
-      left: 0;
-  }
-}
-
 .btn {
-  font-size: clamp(1rem, 2vw, 2rem); /* Adjusted for responsive font size */
-  padding: 1px 10px;
+  font-size: clamp(16px, 2vw, 32px);
+  padding: 10px 20px;
   background-color: #dd1919;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+@keyframes slide {
+  100% {
+    top: -100px;
+  }
+}
+
+@keyframes typing {
+  40%, 60% {
+    left: calc(100% + 10px);
+  }
+  100% {
+    left: 0;
+  }
 }

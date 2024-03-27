@@ -14,12 +14,11 @@ function Home() {
     return (
         <div className="home-container">
             <Header />
-            <div className="wrapper" style={{    width: "1900px",height:"67px"}}>
+            <div className="wrapper">
                 {/* <div className="static-txt" >I'm a</div> */}
 
                 <ul className="dynamic-txts">
-                <li><span>i am a</span></li>
-            
+                    <li><span>i am a</span></li>
                     <li><span>Amrutha Ranjakumar</span></li>
                     <li><span>Full stack developer</span></li>
                 </ul>
