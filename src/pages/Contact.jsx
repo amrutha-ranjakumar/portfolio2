@@ -42,7 +42,7 @@ export const Contact = () => {
               <input type='email' className='form-control mb-2' style={{ backgroundColor: 'orange' }} name='from_email' />
               <label htmlFor='message' style={{ color: 'yellow' }}>Message</label>
               <textarea name='message' className='form-control mb-3' style={{ height: '100px', backgroundColor: 'orange' }} />
-              <input type='submit' className='form-control btn btn-warning' style={{ borderRadius: '500px',marginTop:"70px" }} value='Send' />
+              <input type='submit' className='form-control btn btn-warning' style={{ borderRadius: '500px',marginTop:"40px" }} value='Send' />
             </div>
           </Col>
         </Row>
