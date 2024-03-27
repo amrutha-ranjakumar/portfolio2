@@ -1,0 +1,8 @@
+/* Responsive form control width increase */
+@media (min-width: 768px) {
+    .form-control {
+      width: 900px;
+      margin-left: -250px;
+    }
+  }
+  
