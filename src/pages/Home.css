@@ -23,7 +23,7 @@ body {
 
 .intro-paragraph {
   max-width: 80%;
-  margin-bottom: 160px;
+  margin-bottom: 400px;
   font-size: clamp(16px, 2vw, 24px);
   font-weight: 300;
   line-height: 1.5;
@@ -66,7 +66,7 @@ body {
   border: none;
   border-radius: 9px;
   cursor: pointer;
-  margin-top: -80px;
+  margin-top: -350px;
 }
 
 @keyframes slide {
