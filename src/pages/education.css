@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-html{
-  scroll-behavior: smooth;
-}
-/* body{
-  background: #ff7979;
-} */
+
 ::selection{
   color: #160c0c;
   background: #ff7979;
@@ -50,7 +39,7 @@ html{
   position: absolute;
   content: "";
   height: 15px;
-  width: 15px;
+  width: 34px;
   background: #fff;
   top: 28px;
   z-index: -1;

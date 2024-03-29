@@ -12,7 +12,7 @@ function Header() {
     <body>
     <header>
         <input type ="checkbox" name ="" id ="chk1"/>
-        <div class="logo"><h1>Portfolio</h1></div>
+        {/* <div class="logo"><h1>Portfolio</h1></div> */}
            
             <ul>
              
@@ -21,12 +21,6 @@ function Header() {
               <Link to='/education' className='me-5 ' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} href="#home">EDUCATION</Link>
               <Link to='/contact' className='me-5 ' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} href="#home">CONTACT</Link>
              
-                {/* <li>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                      
-                </li> */}
             </ul>
             <div class="menu">
                 <label for="chk1">

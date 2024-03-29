@@ -29,7 +29,7 @@ export const Contact = () => {
       <form ref={form} onSubmit={sendEmail} >
         <Row>
           <Col xs={12} md={6} className="mx-auto">
-            <h3 className='text-warning mt-5 mb-5  text-center' style={{marginTop:"-80px"}}>CONTACT ME</h3>
+            <h3 className='text-warning mt-5 mb-5  text-center' style={{marginTop:"-60px"}}>CONTACT ME</h3>
             <Link to='/'>
               <button className='btn btn-warning mt-5 ' style={{ width: '40px', height: '50px', backgroundColor: 'orange' }}>
                 <i className='fa-solid fa-angle-left'></i>
@@ -42,7 +42,7 @@ export const Contact = () => {
               <input type='email' className='form-control mb-2' style={{ backgroundColor: 'orange' }} name='from_email' />
               <label htmlFor='message' style={{ color: 'yellow' }}>Message</label>
               <textarea name='message' className='form-control mb-3' style={{ height: '100px', backgroundColor: 'orange' }} />
-              <input type='submit' className='form-control btn btn-warning' style={{ borderRadius: '500px',marginTop:"40px" }} value='Send' />
+              <input type='submit' className='form-control btn btn-danger' style={{ borderRadius: '500px',marginTop:"40px" }} value='Send' />
             </div>
           </Col>
         </Row>

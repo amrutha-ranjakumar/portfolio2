@@ -27,6 +27,7 @@ body {
   font-size: clamp(16px, 2vw, 24px);
   font-weight: 300;
   line-height: 1.5;
+  color: aliceblue;
 }
 
 .dynamic-txts {
@@ -61,8 +62,8 @@ body {
 .btn {
   font-size: clamp(16px, 2vw, 32px);
   padding: 5px 7px;
-  background-color: #dd1919;
-  color: #fff;
+  /* background-color: #dd1919; */
+  color: #8d0f0f;
   border: none;
   border-radius: 9px;
   cursor: pointer;

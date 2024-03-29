@@ -4,96 +4,69 @@ import './education.css'
 function Education() {
   return (
     <body>
-    <div class="wrapper">
-      <div class="center-line">
-        <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+      <div class="wrapper">
+        <div class="center-line">
+          <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+        </div>
+        <div class="row row-1">
+          <section>
+            <i class="icon fas fa-home"></i>
+            <div class="details" style={{ width: "1000px", height: "100px" }}>
+              <span class="title">BACHELOR OF COMPUTER APPLICATION</span>
+
+            </div>
+            <p>Thrananellur Arts And Science College ,Thanissery,Thrissur university of Calicut</p>
+            <div class="bottom">
+
+              <i>2020-2023</i>
+            </div>
+          </section>
+        </div>
+        <div class="row row-2">
+          <section>
+            <i class="icon fas fa-star"></i>
+            <div class="details" style={{ width: "1000px", height: "100px" }}>
+              <span class="title">MERN STACK DEVELOPMENT</span>
+
+            </div>
+            <p>Luminar Technolab Pvt Ltd ,Kakkanad,Ernakulam.</p>
+            <div class="bottom">
+
+              <i>SEP 2023-PRESENT</i>
+            </div>
+          </section>
+        </div>
+        <div class="row row-1">
+          <section>
+            <i class="icon fas fa-rocket"></i>
+            <div class="details" style={{ width: "1000px", height: "100px" }}>
+              <span class="title">COMPUTER SCIENCE</span>
+
+            </div>
+            <p>Highter Secondary Education ,G.M.G.H.S.S irinjalakuda,Thrissur</p>
+            <div class="bottom">
+
+              <i>2018-2019</i>
+            </div>
+          </section>
+        </div>
+        <div class="row row-2">
+          <section>
+            <i class="icon fas fa-globe"></i>
+            <div class="details" style={{ width: "1000px", height: "100px" }}>
+              <span class="title">HIGH SCHOOL</span>
+
+            </div>
+            <p>Sreekrisha Highter School Anandapuram ,Thrissur</p>
+            <div class="bottom">
+
+              <i>2017-2018</i>
+            </div>
+          </section>
+        </div>
+
       </div>
-      <div class="row row-1">
-        <section>
-          <i class="icon fas fa-home"></i>
-          <div class="details">
-            <span class="title">Title of Section 1</span>
-            <span>1st Jan 2021</span>
-          </div>
-          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-          <div class="bottom">
-            <a href="#">Read more</a>
-            <i>- Someone famous</i>
-          </div>
-        </section>
-      </div>
-      <div class="row row-2">
-        <section>
-          <i class="icon fas fa-star"></i>
-          <div class="details">
-            <span class="title">Title of Section 2</span>
-            <span>2nd Jan 2021</span>
-          </div>
-          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-          <div class="bottom">
-            <a href="#">Read more</a>
-            <i>- Someone famous</i>
-          </div>
-        </section>
-      </div>
-      <div class="row row-1">
-        <section>
-          <i class="icon fas fa-rocket"></i>
-          <div class="details">
-            <span class="title">Title of Section 3</span>
-            <span>3rd Jan 2021</span>
-          </div>
-          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-          <div class="bottom">
-            <a href="#">Read more</a>
-            <i>- Someone famous</i>
-          </div>
-        </section>
-      </div>
-      <div class="row row-2">
-        <section>
-          <i class="icon fas fa-globe"></i>
-          <div class="details">
-            <span class="title">Title of Section 4</span>
-            <span>4th Jan 2021</span>
-          </div>
-          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-          <div class="bottom">
-            <a href="#">Read more</a>
-            <i>- Someone famous</i>
-          </div>
-        </section>
-      </div>
-      <div class="row row-1">
-        <section>
-          <i class="icon fas fa-paper-plane"></i>
-          <div class="details">
-            <span class="title">Title of Section 5</span>
-            <span>5th Jan 2021</span>
-          </div>
-          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-          <div class="bottom">
-            <a href="#">Read more</a>
-            <i>- Someone famous</i>
-          </div>
-        </section>
-      </div>
-      <div class="row row-2">
-        <section>
-          <i class="icon fas fa-map-marker-alt"></i>
-          <div class="details">
-            <span class="title">Title of Section 6</span>
-            <span>6th Jan 2021</span>
-          </div>
-          <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-          <div class="bottom">
-            <a href="#">Read more</a>
-            <i>- Someone famous</i>
-          </div>
-        </section>
-      </div>
-    </div>
-  </body>
+    </body>
   )
 }
 
