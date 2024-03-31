@@ -16,10 +16,10 @@ function Header() {
            
             <ul>
              
-              <Link to='/' className='me-5 ' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} href="#home">HOME</Link>
-              <Link to='/project' className='me-5 ' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} href="#home">PROJECT</Link>
-              <Link to='/education' className='me-5 ' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} href="#home">EDUCATION</Link>
-              <Link to='/contact' className='me-5 ' style={{ textDecoration: "none", color: "red",fontSize: "26px"  }} href="#home">CONTACT</Link>
+              <Link to='/' className='me-5 ' style={{ textDecoration: "none", color: "blue",fontSize: "26px"  }} href="#home">HOME</Link>
+              <Link to='/project' className='me-5 ' style={{ textDecoration: "none", color: "blue",fontSize: "26px"  }} href="#home">PROJECT</Link>
+              <Link to='/education' className='me-5 ' style={{ textDecoration: "none", color: "blue",fontSize: "26px"  }} href="#home">EDUCATION</Link>
+              <Link to='/contact' className='me-5 ' style={{ textDecoration: "none", color: "blue",fontSize: "26px"  }} href="#home">CONTACT</Link>
              
             </ul>
             <div class="menu">

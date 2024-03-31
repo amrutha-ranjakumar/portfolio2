@@ -19,7 +19,7 @@
   
   
   .flip-card {
-    margin: 20px;
+    margin: 50px;
     position: relative;
     transform-style: preserve-3d;
     perspective: 900px;
@@ -30,10 +30,10 @@
   .flip-card-front,
   .flip-card-back {
     width: 300px;
-    min-height: 500px;
+    min-height: 460px;
     height: auto;
     background-color: #000000;
-    background-image:        url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg');
+    background-image:        url('https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -44,7 +44,7 @@
   
   .flip-card:nth-of-type(2) .flip-card-front,
   .flip-card:nth-of-type(2) .flip-card-back {
-    background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg');
+    background-image: url('https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-development.jpg');
   }
   
   /* .flip-card:nth-of-type(3) .flip-card-front,

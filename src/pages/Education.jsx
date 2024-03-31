@@ -1,73 +1,62 @@
-import React from 'react'
-import './education.css'
+import React from 'react';
+import './education.css';
 
 function Education() {
   return (
-    <body>
-      <div class="wrapper">
-        <div class="center-line">
-          <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+    <div className="education">
+      <h2 className='text-primary'>Education</h2>
+      <div className="education-list">
+        <div className="education-item">
+          <div className="education-card">
+            <div className="icon-container">
+              <i className="fas fa-graduation-cap"></i>
+            </div>
+            <div className="education-details">
+              <h3>Bachelor of Computer Application</h3>
+              <p>Thrananellur Arts And Science College, Thanissery, Thrissur university of Calicut</p>
+              <span className="duration">2020-2023</span>
+            </div>
+          </div>
         </div>
-        <div class="row row-1">
-          <section>
-            <i class="icon fas fa-home"></i>
-            <div class="details" style={{ width: "1000px", height: "100px" }}>
-              <span class="title">BACHELOR OF COMPUTER APPLICATION</span>
-
+        <div className="education-item">
+          <div className="education-card">
+            <div className="icon-container">
+              <i className="fas fa-graduation-cap"></i>
             </div>
-            <p>Thrananellur Arts And Science College ,Thanissery,Thrissur university of Calicut</p>
-            <div class="bottom">
-
-              <i>2020-2023</i>
+            <div className="education-details">
+              <h3>MERN Stack Development</h3>
+              <p>Luminar Technolab Pvt Ltd, Kakkanad, Ernakulam.</p>
+              <span className="duration">SEP 2023-PRESENT</span>
             </div>
-          </section>
+          </div>
         </div>
-        <div class="row row-2">
-          <section>
-            <i class="icon fas fa-star"></i>
-            <div class="details" style={{ width: "1000px", height: "100px" }}>
-              <span class="title">MERN STACK DEVELOPMENT</span>
-
+        <div className="education-item">
+          <div className="education-card">
+            <div className="icon-container">
+              <i className="fas fa-graduation-cap"></i>
             </div>
-            <p>Luminar Technolab Pvt Ltd ,Kakkanad,Ernakulam.</p>
-            <div class="bottom">
-
-              <i>SEP 2023-PRESENT</i>
+            <div className="education-details">
+              <h3>Computer Science</h3>
+              <p>Highter Secondary Education, G.M.G.H.S.S irinjalakuda, Thrissur</p>
+              <span className="duration">2018-2019</span>
             </div>
-          </section>
+          </div>
         </div>
-        <div class="row row-1">
-          <section>
-            <i class="icon fas fa-rocket"></i>
-            <div class="details" style={{ width: "1000px", height: "100px" }}>
-              <span class="title">COMPUTER SCIENCE</span>
-
+        <div className="education-item">
+          <div className="education-card">
+            <div className="icon-container">
+              <i className="fas fa-graduation-cap"></i>
             </div>
-            <p>Highter Secondary Education ,G.M.G.H.S.S irinjalakuda,Thrissur</p>
-            <div class="bottom">
-
-              <i>2018-2019</i>
+            <div className="education-details">
+              <h3>High School</h3>
+              <p>Sreekrisha Highter School Anandapuram, Thrissur</p>
+              <span className="duration">2017-2018</span>
             </div>
-          </section>
+          </div>
         </div>
-        <div class="row row-2">
-          <section>
-            <i class="icon fas fa-globe"></i>
-            <div class="details" style={{ width: "1000px", height: "100px" }}>
-              <span class="title">HIGH SCHOOL</span>
-
-            </div>
-            <p>Sreekrisha Highter School Anandapuram ,Thrissur</p>
-            <div class="bottom">
-
-              <i>2017-2018</i>
-            </div>
-          </section>
-        </div>
-
       </div>
-    </body>
-  )
+    </div>
+  );
 }
 
-export default Education
+export default Education;

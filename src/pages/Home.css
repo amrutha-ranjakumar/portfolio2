@@ -2,9 +2,9 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 40vh;
-  background-image: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url('https://cdn.vectorstock.com/i/preview-1x/36/48/abstract-shiny-black-and-gray-diagonal-stripes-vector-37223648.jpg');
   background-size: cover;
-  color: #e72525;
+  color: #1c0a7e;
   text-align: center;
   display: flex;
   font-family: 'Poppins', sans-serif;
@@ -28,6 +28,7 @@ body {
   font-weight: 300;
   line-height: 1.5;
   color: aliceblue;
+  margin-left: 70px;
 }
 
 .dynamic-txts {
@@ -37,7 +38,7 @@ body {
 
 .dynamic-txts li {
   list-style: none;
-  color: #cc4141;
+  color: #cdcad3;
   font-size: clamp(16px, 3vw, 32px);
   font-weight: 300;
   position: relative;
@@ -55,19 +56,19 @@ body {
   left: 0;
   height: 5px;
   width: 5px;
-  border-left: 2px solid #dd1919;
+  border-left: 2px solid hsl(0, 5%, 74%);
   animation: typing 3s steps(10) infinite;
 }
 
 .btn {
-  font-size: clamp(16px, 2vw, 32px);
+  font-size: clamp(3px, 6vw, 32px);
   padding: 5px 7px;
-  /* background-color: #dd1919; */
-  color: #8d0f0f;
+  /* background-color: #fbfbfd; */
+  color: #170b5f;
   border: none;
   border-radius: 9px;
   cursor: pointer;
-  margin-top: -350px;
+  margin-top: -500px;
 }
 
 @keyframes slide {

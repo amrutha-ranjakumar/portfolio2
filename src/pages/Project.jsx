@@ -61,7 +61,7 @@ function Project() {
             <div class="flip-card-back" >
               <div class="inner">
 
-                <h3>Music Player Website</h3>
+                <h3>Music Player </h3>
                 <p>
                   Crafted a responsive music player site with HTML, CSS, JavaScript, Node.js, MongoDB, and React, offering playlist management
                 </p>
@@ -73,7 +73,7 @@ function Project() {
             <div class="flip-card-front">
               <div class="inner">
 
-                <h3>E Kart Website</h3>
+                <h3>E Kart </h3>
                 <p>
 
 
@@ -86,7 +86,7 @@ function Project() {
             <div class="flip-card-back">
               <div class="inner">
 
-                <h3>E Kart Website</h3>
+                <h3>E Kart </h3>
                 <p>
 
 
@@ -111,7 +111,7 @@ function Project() {
               <div class="flip-card-front">
                 <div class="inner">
 
-                  <h3>Restaurant Website</h3>
+                  <h3>Restaurant </h3>
                   <p>
 
                     Developed a user-friendly Restaurant website with HTML, CSS, React, Redux, featuring intuitive UI elements for reviews, hours, and key details.
